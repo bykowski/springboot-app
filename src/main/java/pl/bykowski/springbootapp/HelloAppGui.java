@@ -16,7 +16,7 @@ public class HelloAppGui extends VerticalLayout {
 
     public HelloAppGui() {
         TextField textField = new TextField("Podaj imie:");
-        Button buttonHello = new Button("Przywitaj", new Icon(VaadinIcon.HANDSHAKE));
+        Button buttonHello = new Button("Przywitaj", new Icon(VaadinIcon.HANDS_UP));
         Label label = new Label();
 
         buttonHello.addClickListener(clickEvent -> {
