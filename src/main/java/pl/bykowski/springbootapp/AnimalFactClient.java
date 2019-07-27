@@ -1,14 +1,10 @@
 package pl.bykowski.springbootapp;
 
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.Arrays;
 
 @Controller
 public class AnimalFactClient {
